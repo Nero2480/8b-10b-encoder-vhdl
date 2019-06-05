@@ -29,5 +29,8 @@ Much higher frequencies into the Ghz should be possible but I don't have the mea
 
 A table of the ending scheme can be found at https://en.wikipedia.org/wiki/8b/10b_encoding. Otherwise the coding is implied by comby.vhdl
 
+According to quartus on the De10-Lite FPGA used to implement this. The design uses 181 logic elements, 102 registers, and 42 pins. 
+
+
 
 

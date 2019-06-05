@@ -45,7 +45,7 @@ begin
 	   q <= not "00111001";
 	 elsif (INP = x"D") then
 	   q <= not "01011110";
-    elsif (INP = x"E") then
+         elsif (INP = x"E") then
 	   q <= not "01111001";
 	 elsif (INP = x"F") then
 	   q <= not "01110001";

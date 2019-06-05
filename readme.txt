@@ -27,7 +27,7 @@ The slow clock is for user convenience. The remaing components can run on the 50
 Much higher frequencies into the Ghz should be possible but I don't have the means to test them.
 
 
-
+A table of the ending scheme can be found at https://en.wikipedia.org/wiki/8b/10b_encoding. Otherwise the coding is implied by comby.vhdl
 
 
 

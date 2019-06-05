@@ -20,8 +20,8 @@ begin
    process(CLK,RST) -- rundisp needed? NO
 	variable rundisp : bit := '0'; -- Needs to be a variable. A signal would only update at end of process.
 	variable firstpart : std_logic_vector(4 downto 0) := "00000";
-   variable secondpart : std_logic_vector(7 downto 5) := "000";
-   variable output1 : std_logic_vector(5 downto 0) := "000000";
+        variable secondpart : std_logic_vector(7 downto 5) := "000";
+        variable output1 : std_logic_vector(5 downto 0) := "000000";
 	variable output2 : std_logic_vector(9 downto 6) := "0000";
 	begin
 	

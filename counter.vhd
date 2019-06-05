@@ -30,7 +30,7 @@ begin
 	elsif rising_edge(CLK) AND (rst = '0') then
 		-- counter
 		if (currentval = x"ff") then -- reset counter at 2^8 -1.
-		   delayer1 <= currentval;
+		        delayer1 <= currentval;
 			q <= std_logic_vector(currentval);
 			dispout <= std_logic_vector(delayer1);
 			currentval <= x"00";
